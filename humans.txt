@@ -1,13 +1,13 @@
 # humanstxt.org/
 # The humans responsible & technology colophon
 
-# TEAM
+# DEVELOPER
+<Milton Guzman> -- <developer> -- <mguzman>
 
-    <name> -- <role> -- <twitter>
 
 # THANKS
 
-    <name>
+    <mejorando> -- <mejorando.la>
 
 # TECHNOLOGY COLOPHON
 
