@@ -8,25 +8,172 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Puls2014| Bienvenidos</title>
         <meta name="description" content="proyecto de la primera generacion 2014 del curso de diseño web online">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/styles.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="js/prefixfree.js"></script>
     </head>
     <body>
         <!--[if lt IE 6]>
-            <p class="browsehappy">Usted navega en una version muy antigua de IE <strong>actualice</strong> su navegador. Please <a href="http://browsehappy.com/">haciendo click acar</a> para mejorar su experiencia.</p>
+            <p class="browsehappy">Usted navega en una version muy antigua de IE <strong>actualice</strong> su navegador <a href="http://browsehappy.com/">haciendo click aca</a> para mejorar su experiencia.</p>
         <![endif]-->
 
         <header>
-            <figure id="logo"></figure>
+            <figure id="logo">
+                <img src="img/logo.png" alt="logotipo">
+            </figure>
+            <h1>Puls2014, comunidad de personas atractivas y sexy</h1>
+            <figure id="avatar">
+                <img src="img/avatar.jpg" alt="">
+            </figure>
         </header>
-        <nav></nav>
-        <section>
-            <article></article>
+        <nav>
+            <ul>
+                <li><a href="#">Python</a></li>
+                <li><a href="#">HTML5</a></li>
+                <li><a href="#">Javascript</a></li>
+                <li><a href="#">CSS3</a></li>
+                <li><a href="#">Django</a></li>
+                <li id="publicar_nav" class='icon-lapiz'><a href="#">Publicar</a></li>
+            </ul>
+        </nav>
+        <form action="" id="formulario" class="formulario">
+            <input type="text" id="titulo" required placeholder="título">
+            <input type="url" id="url" required placeholder="link">
+            <input type="submit" value="enviar">
+        </form>
+        <aside>
+            <video controls autoplay width=320 height=240>
+                <source src="video/lecturas.ogg" type="video/ogg">
+                <source src="videolecturas.mp4" type="video/mp4">
+                ope!!! actualiza tu cacharro es gratis!!!! <code>video</code> element.
+            </video>
+        </aside>
+        <section id="contenido">
+            <article class="item">
+                <figure class="imagen_item">
+                    <img src="img/imagen.jpg">
+                </figure>
+                <h2 class="titulo_item"><a href="">Tus PSD cumplen con las reglas de etiqueta?</a></h2>
+                <div class="autor_item">
+                    por <a href="#">Joana Muñoz</a>
+                </div>
+                <div class="datos_item">
+                    <a class="tag_item"href="#">pony</a>
+                    <span class="fecha_item">hace <strong>5</strong> minutos</span>
+                </div>
+                <div class="votacion">
+                    <a href="#" class="up icon-flecha-arriba"></a>
+                    720
+                    <a href="#" class="down icon-flecha-arriba"></a>
+                    <a href="#" class="comentarios_item">69</a>
+                    <a href="#" class="guardar_item icon-estrella"></a>
+                </div>
+            </article>
+            <article class="item">
+                <figure class="imagen_item">
+                    <img src="img/imagen.jpg">
+                </figure>
+                <h2 class="titulo_item"><a href="">Efectos Monocromáticos más Atractivos en Photoshop</a></h2>
+                <div class="autor_item">
+                    por <a href="#">Joana Muñoz</a>
+                </div>
+                <div class="datos_item">
+                    <a class="tag_item"href="#">pony</a>
+                    <span class="fecha_item">hace <strong>5</strong> minutos</span>
+                </div>
+                <div class="votacion">
+                    <a href="#" class="up icon-flecha-arriba"></a>
+                    720
+                    <a href="#" class="down icon-flecha-arriba"></a>
+                    <a href="#" class="comentarios_item">69</a>
+                    <a href="#" class="guardar_item icon-estrella"></a></div>
+            </article>
+            <article class="item">
+                <figure class="imagen_item">
+                    <img src="img/imagen.jpg">
+                </figure>
+                <h2 class="titulo_item"><a href="">La creatividad en los saquitos de té</a></h2>
+                <div class="autor_item">
+                    por <a href="#">Joana Muñoz</a>
+                </div>
+                <div class="datos_item">
+                    <a class="tag_item"href="#">pony</a>
+                    <span class="fecha_item">hace <strong>5</strong> minutos</span>
+                </div>
+                <div class="votacion">
+                    <a href="#" class="up icon-flecha-arriba"></a>
+                    720
+                    <a href="#" class="down icon-flecha-arriba"></a>
+                    <a href="#" class="comentarios_item">69</a>
+                    <a href="#" class="guardar_item icon-estrella"></a>
+                </div>
+            </article>
+            <article class="item">
+                <figure class="imagen_item">
+                    <img src="img/imagen.jpg">
+                </figure>
+                <h2 class="titulo_item"><a href="">Flaticon. Mas de 12.000 iconos en tu Photoshop</a></h2>
+                <div class="autor_item">
+                    por <a href="#">Joana Muñoz</a>
+                </div>
+                <div class="datos_item">
+                    <a class="tag_item"href="#">pony</a>
+                    <span class="fecha_item">hace <strong>5</strong> minutos</span>
+                </div>
+                <div class="votacion">
+                    <a href="#" class="up icon-flecha-arriba"></a>
+                    720
+                    <a href="#" class="down icon-flecha-arriba"></a>
+                    <a href="#" class="comentarios_item">69</a>
+                    <a href="#" class="guardar_item icon-estrella"></a>
+                </div>
+            </article>
+            <article class="item">
+                <figure class="imagen_item">
+                    <img src="img/imagen.jpg">
+                </figure>
+                <h2 class="titulo_item"><a href="">Set de pinceles de partículas para Photoshop</a></h2>
+                <div class="autor_item">
+                    por <a href="#">Joana Muñoz</a>
+                </div>
+                <div class="datos_item">
+                    <a class="tag_item"href="#">pony</a>
+                    <span class="fecha_item">hace <strong>5</strong> minutos</span>
+                </div>
+                <div class="votacion">
+                    <a href="#" class="up icon-flecha-arriba"></a>
+                    720
+                    <a href="#" class="down icon-flecha-arriba"></a>
+                    <a href="#" class="comentarios_item">69</a>
+                    <a href="#" class="guardar_item icon-estrella"></a>
+                </div>
+            </article>
+            <article class="item">
+                <figure class="imagen_item">
+                    <img src="img/imagen.jpg">
+                </figure>
+                <h2 class="titulo_item"><a href="">Fantásticas ilustraciones de Breaking Bad</a></h2>
+                <div class="autor_item">
+                    por <a href="#">Joana Muñoz</a>
+                </div>
+                <div class="datos_item">
+                    <a class="tag_item"href="#">pony</a>
+                    <span class="fecha_item">hace <strong>5</strong> minutos</span>
+                </div>
+                <div class="votacion">
+                    <a href="#" class="up icon-flecha-arriba"></a>
+                    720
+                    <a href="#" class="down icon-flecha-arriba"></a>
+                    <a href="#" class="comentarios_item">69</a>
+                    <a href="#" class="guardar_item icon-estrella"></a>
+                </div>
+            </article>
         </section>
         <footer>
             <p>
